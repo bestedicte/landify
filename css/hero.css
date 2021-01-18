@@ -1,24 +1,41 @@
 .hero {
     margin: auto;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
+/* The right side of the hero page */
+
 .hero .right {
-    max-width: 570px;
-    font-family: Manrope;
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
+	max-width: 540px;
+	font-family: Manrope;
+	display: flex;
+	flex-direction: column;
     justify-content: center;
+    color: #18191F;
 }
+
+/* Landing Page UI kit */
 
 .hero .right h2 {
 	font-size: 72px;
-    font-weight: 800;
+	font-weight: 800;
     margin-bottom: 16px;
+    line-height: 136%;
 }
+
+/* Lorem ipsum */
+
+.hero .right p {
+	margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+/* Get Started */
 
 .hero .right button {
 	background: #8c30f5;
@@ -31,12 +48,60 @@
 	text-align: center;
 }
 
-.hero .right p {
-    margin-top: 0;
-    margin-bottom: 32px;
-}
- 
 .hero .left {
-    max-width: 524px;
+	width: 524px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
 
+.hero .left .circle {
+	border-radius: 50% 50% 50% 50%;
+	background-color: #f1e4ff;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+#iphone {
+	width: 250px;
+	margin-top: 92px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.hero .left .card-1 {
+	width: 280px;
+	height: 72px;
+	align-self: flex-start;
+	background-color: #ffffff;
+	z-index: 100;
+	position: absolute;
+	top: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+	border-radius: 8px;
+}
+
+.hero .left .card-2 {
+	width: 280px;
+	height: 72px;
+	align-self: flex-end;
+	z-index: 100;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 16px;
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+	border-radius: 8px;
 }
