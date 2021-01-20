@@ -1,0 +1,16 @@
+
+.selected-works > h2 {
+    font-family: manrope;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.selected-works .projects {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
